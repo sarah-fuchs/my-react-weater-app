@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Form from "./Form";
+import Footer from "./Footer";
+import Temperature from "./Temperature";
+import City from "./City";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <div className="weatherAppWrapper">
+          <div className="weatherApp">
+            <Form city="Vienna" temperature="19" />
+            <City />
+            <Temperature />
+          </div>
+        </div>
+        <Footer />
+      </div>
     </div>
   );
 }
-
-export default App;

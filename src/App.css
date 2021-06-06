@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.weatherAppWrapper {
+  max-width: 610px;
+  margin: 30px auto;
+  margin-top: 80px;
+  background-color: white;
+}
+
+.weatherApp {
+  padding: 20px;
+  border: 2px solid #878787;
+  border-radius: 8px;
+}

@@ -1,0 +1,33 @@
+.City {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .City body {
+    font-family: monospace;
+    opacity: 0.99;
+    background-size: 220%;
+  }
+  
+  .City h1 {
+    color: #878787;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+  .City ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .City li {
+    list-style: none;
+    color: rgb(135, 135, 135);
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
+    text-align: left;
+    padding: 0;
+    margin: 10px;
+  }
+  
