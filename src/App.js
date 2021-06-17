@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Form from "./Form";
 import Footer from "./Footer";
-import Temperature from "./Temperature";
 import City from "./City";
 
 export default function App() {
@@ -11,9 +10,9 @@ export default function App() {
       <div className="container">
         <div className="weatherAppWrapper">
           <div className="weatherApp">
+            <h1>Weather App</h1>
             <Form city="Vienna" temperature="19" />
             <City />
-            <Temperature />
           </div>
         </div>
         <Footer />
